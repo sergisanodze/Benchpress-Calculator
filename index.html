@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Max Bench Press</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="title">Max Bench press calc</h1>
+    </header>
+    <div class="container">
+       <div class="inner__container">
+            <div class="content">
+                <div class="first-block">
+                    <input class="user__input-reps" id="reps" type="number" placeholder="Reps">
+                </div>
+                <div class="second-block">
+                    <input class="user__input-weight" id="weight" type="number" placeholder="Weight (kg)">
+                </div>
+            </div>
+            <button class="calculate" id="calc">Calculate</button>
+            <div class="result-list">
+                <p class="result blue-bold" id="para"></p>
+                <p class="weight-index blue-bold" id="index"></p>
+                <p class="rep-count blue-bold" id="count"></p>
+            </div>
+       </div>
+    </div>
+    <footer class="footer">
+        <p class="note">calculations aren't 100% accurate, Keep in mind that we use a formula which provides a probable answer</p>
+    </footer>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
